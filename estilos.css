@@ -1,0 +1,144 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: ISOCP2;
+    box-sizing: border-box;
+    box-shadow: none;
+    color: black;
+    box-sizing: border-box;
+    font-weight: bolder;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.nav{
+    display: flex;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.menuItems{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.menuItems li{
+    float: none;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.logo img{
+    width: 12em;
+    list-style-type: none;
+}
+
+
+
+
+.material-placeholder img{
+	height: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: grayscale(100%);
+    -webkit-transition: all 0.1,5s;
+    -moz-transition: all 0.1,5s;
+    -ms-transition: all 0.1,5s;
+    -o-transition: all 0.1,5s;
+    transition: all 0.1,5s;
+}
+
+.material-placeholder img:hover {
+    filter: grayscale(0%);
+    -webkit-transition: all 0.1,5s;
+    -moz-transition: all 0.1,5s;
+    -ms-transition: all 0.1,5s;
+    -o-transition: all 0.1,5s;
+    transition: all 0.1,5s;
+}
+
+.material-placeholder{
+    display: flex;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	position: relative;
+    justify-content: space-around
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.material-placeholder{
+    width: 100%;
+}
+
+/* FOOTER */
+
+.footerPrincipal{
+    position:fixed;
+    bottom: 30px;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.footerSecundario{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.datosLucas, .datosMayra{
+    margin:auto;
+    text-align:center;
+}
+
+.footerItems{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #bcbcbc;
+}
+
+/* GALERIA DE FOTOS INTERIOR Y EXTERIOR*/
+
+.galeriaInterior img, .galeriaExterior img{
+	height: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: grayscale(100%);
+	-webkit-transition: all 0.1,5s;
+	-moz-transition: all 0.1,5s;
+	-ms-transition: all 0.1,5s;
+	-o-transition: all 0.1,5s;
+    transition: all 0.1,5s;
+}
+
+.galeriaInterior img:hover, .galeriaExterior img:hover {
+    filter: grayscale(0%);
+    -webkit-transition: all 0.1,5s;
+    -moz-transition: all 0.1,5s;
+    -ms-transition: all 0.1,5s;
+    -o-transition: all 0.1,5s;
+    transition: all 0.1,5s;
+}
+
+.galeriaInterior, .galeriaExterior{
+	width: 90%;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	position: relative;
+}
