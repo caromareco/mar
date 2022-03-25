@@ -35,7 +35,8 @@
     display: flex;
     align-items: center;
     font-size: 15px;
-    margin-right: 10px;
+    margin-left: 5%;
+    margin-right: 10%;
 }
 
 .logo img{
@@ -68,8 +69,6 @@
 
 .material-placeholder{
     display: flex;
-	margin-left: 5%;
-	margin-bottom: 5%;
 	position: relative;
     justify-content: space-around
 }
@@ -126,10 +125,7 @@
 	-ms-transition: all 0.1,5s;
 	-o-transition: all 0.1,5s;
     transition: all 0.1,5s;
-}
-
-.galeriaExterior{
-    padding: 10px;
+    padding-top: 10%;
 }
 
 .galeriaInterior img:hover, .galeriaExterior img:hover {
@@ -149,9 +145,6 @@
                         'img8 img9 img10'
                         'img11 img12 img13'
                         'img14 img15 img16';
-	width: 90%;
-	margin-left: 5%;
-	margin-bottom: 5%;
 	position: relative;
 }
 
