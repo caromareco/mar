@@ -126,6 +126,9 @@
 	-ms-transition: all 0.1,5s;
 	-o-transition: all 0.1,5s;
     transition: all 0.1,5s;
+}
+
+.galeriaExterior{
     padding: 10px;
 }
 
