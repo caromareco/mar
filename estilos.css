@@ -67,6 +67,9 @@
     transition: all 0.1,5s;
 }
 
+a{
+    color: black!important;
+}
 
 .container{
     display: flex;
