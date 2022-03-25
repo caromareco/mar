@@ -67,19 +67,11 @@
     transition: all 0.1,5s;
 }
 
-.material-placeholder{
-    display: flex;
-	position: relative;
-    justify-content: space-around
-}
 
 .container{
     display: flex;
-    width: 100%;
-}
-
-.material-placeholder{
-    width: 100%;
+    width:100%;
+    height:100%;
 }
 
 /* FOOTER */
@@ -96,13 +88,18 @@
 .footerSecundario{
     width: 100%;
     height: 40px;
-    padding: 10px;
+    padding: 50px;
     font-size: 12px;
 }
 
 .datosLucas, .datosMayra{
     margin:auto;
     text-align:center;
+}
+
+.simbolo{
+    display: flex;
+    align-items: center;
 }
 
 .footerItems{
@@ -125,7 +122,14 @@
 	-ms-transition: all 0.1,5s;
 	-o-transition: all 0.1,5s;
     transition: all 0.1,5s;
+}
+
+.galeriaInterior img{
     padding-top: 10%;
+}
+
+.galeriaExterior img{
+    
 }
 
 .galeriaInterior img:hover, .galeriaExterior img:hover {
