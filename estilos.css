@@ -20,10 +20,6 @@ html,body{
     height:100%;
 }
 
-.main{
-    
-}
-
 /* NAVEGADOR */
 
 .nav{
@@ -141,93 +137,200 @@ a{
     transition: all 0.1,5s;
 }
 
-.galeriaInterior, .galeriaExterior{
+/* GRID GALERIA INTERIOR */
+
+.galeriaInterior{
     display: grid;
-    grid-template-areas:'img1 img1 img1'
-                        'img2 img3 img4'
-                        'img5 img6 img7'
-                        'img8 img9 img10'
-                        'img11 img12 img13'
-                        'img14 img15 img16';
+    grid-template-areas:'imgInterior1 imgInterior2 imgInterior3'
+                        'imgInterior4 imgInterior5 imgInterior6'
+                        'imgInterior7 imgInterior8 imgInterior9'
+                        'imgInterior10 imgInterior11 imgInterior12'
+                        'imgInterior13 imgInterior14 imgInterior15'
+                        'imgInterior16 imgInterior17 imgInterior18'
+                        'imgInterior19 imgInterior20 imgInterior21';
+}
+
+.imgInterior1{
+    grid-area: imgInterior1;
+}
+
+.imgInterior2{
+    grid-area: imgInterior2;
+}
+
+.imgInterior3{
+    grid-area: imgInterior3;
+}
+
+.imgInterior4{
+    grid-area: imgInterior4;
+}
+
+.imgInterior5{
+    grid-area: imgInterior5;
+}
+
+.imgInterior6{
+    grid-area: imgInterior6;
+}
+
+.imgInterior7{
+    grid-area: imgInterior7;
+}
+
+.imgInterior8{
+    grid-area: imgInterior8;
+}
+
+.imgInterior9{
+    grid-area: imgInterior9;
+}
+
+.imgInterior10{
+    grid-area: imgInterior10;
+}
+
+.imgInterior11{
+    grid-area: imgInterior11;
+}
+
+.imgInterior12{
+    grid-area: imgInterior12;
+}
+
+.imgInterior13{
+    grid-area: imgInterior13;
+}
+
+.imgInterior14{
+    grid-area: imgInterior14;
+}
+
+.imgInterior15{
+    grid-area: imgInterior15;
+}
+
+.imgInterior16{
+    grid-area: imgInterior16;
+}
+
+.imgInterior17{
+    grid-area: imgInterior17;
+}
+
+.imgInterior18{
+    grid-area: imgInterior18;
+}
+
+.imgInterior19{
+    grid-area: imgInterior19;
+}
+
+.imgInterior20{
+    grid-area: imgInterior20;
+}
+
+.imgInterior21{
+    grid-area: imgInterior21;
+}
+
+.imgInterior13, .imgInterior14, .imgInterior15{
+
+}
+
+
+.imgInterior13 img, .imgInterior14 img, .imgInterior15 img{
+    
+}
+
+/* GRID GALERIA EXTERIOR*/
+
+.galeriaExterior{
+    display: grid;
+    grid-template-areas:'imgExterior1 imgExterior1 imgExterior1'
+                        'imgExterior2 imgExterior3 imgExterior4'
+                        'imgExterior5 imgExterior6 imgExterior7'
+                        'imgExterior8 imgExterior9 imgExterior10'
+                        'imgExterior11 imgExterior12 imgExterior13'
+                        'imgExterior14 imgExterior15 imgExterior16';
 	position: relative;
 }
 
-.img1{
-    grid-area: img1;
+.imgExterior1{
+    grid-area: imgExterior1;
 }
 
-.img1 img{
+.imgExterior1 img{
     padding: 0%!important;
 }
 
-.img2{
-    grid-area: img2;
+.imgExterior2{
+    grid-area: imgExterior2;
 }
 
-.img3{
-    grid-area: img3;
+.imgExterior3{
+    grid-area: imgExterior3;
 }
 
-.img4{
-    grid-area: img4;
+.imgExterior4{
+    grid-area: imgExterior4;
 }
 
-.img5{
-    grid-area: img5;
+.imgExterior5{
+    grid-area: imgExterior5;
 }
 
-.img6{
-    grid-area: img6;
+.imgExterior6{
+    grid-area: imgExterior6;
 }
 
-.img7{
-    grid-area: img7;
+.imgExterior7{
+    grid-area: imgExterior7;
 }
 
-.img8{
-    grid-area: img8;
+.imgExterior8{
+    grid-area: imgExterior8;
 }
 
-.img9{
-    grid-area: img9;
+.imgExterior9{
+    grid-area: imgExterior9;
 }
 
-.img10{
-    grid-area: img10;
+.imgExterior10{
+    grid-area: imgExterior10;
 }
 
-.img11{
-    grid-area: img11;
+.imgExterior11{
+    grid-area: imgExterior11;
 }
 
-.img12{
-    grid-area: img12;
+.imgExterior12{
+    grid-area: imgExterior12;
 }
 
-.img13{
-    grid-area: img13;
+.imgExterior13{
+    grid-area: imgExterior13;
 }
 
-.img14{
-    grid-area: img14;
+.imgExterior14{
+    grid-area: imgExterior14;
 }
 
-.img15{
-    grid-area: img15;
+.imgExterior15{
+    grid-area: imgExterior15;
 }
 
-.img16{
-    grid-area: img16;
+.imgExterior16{
+    grid-area: imgExterior16;
 }
 
 /* FOOTER */
 
 .footerPrincipal{
     position:fixed;
-    bottom: 30px;
+    bottom: 20px;
     width: 100%;
     height: 40px;
-    padding: 10px;
     font-size: 12px;
 }
 
