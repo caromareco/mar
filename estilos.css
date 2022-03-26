@@ -19,33 +19,52 @@
     height: 100%;
 }
 
+.main{
+    height: 100%;
+}
+
+/* NAVEGADOR */
+
 .nav{
     display: flex;
     border-bottom: 1px solid #bcbcbc;
+}
+
+
+a{
+    color: black!important;
 }
 
 .menuItems{
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
 }
 
 .menuItems li{
     float: none;
     display: flex;
     align-items: center;
+    margin: 5%;
     font-size: 15px;
-    margin-left: 5%;
-    margin-right: 10%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
 }
 
 .logo img{
-    width: 12em;
+    width: 100%;
     list-style-type: none;
 }
 
+/* EFECTO IMAGENES */
 
 .material-placeholder img{
+    width: 100%;
 	height: 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -67,9 +86,7 @@
     transition: all 0.1,5s;
 }
 
-a{
-    color: black!important;
-}
+/* GALERIA PRINCIPAL */
 
 .container{
     display: flex;
@@ -77,38 +94,8 @@ a{
     height:100%;
 }
 
-/* FOOTER */
-
-.footerPrincipal{
-    position:fixed;
-    bottom: 30px;
-    width: 100%;
-    height: 40px;
-    padding: 10px;
-    font-size: 12px;
-}
-
-.footerSecundario{
-    width: 100%;
-    height: 40px;
-    padding: 50px;
-    font-size: 12px;
-}
-
-.datosLucas, .datosMayra{
-    margin:auto;
-    text-align:center;
-}
-
-.simbolo{
-    display: flex;
-    align-items: center;
-}
-
-.footerItems{
-    display: flex;
-    justify-content: space-between;
-    border-top: 1px solid #bcbcbc;
+.container img{
+    width:100%;
 }
 
 /* GALERIA DE FOTOS INTERIOR Y EXTERIOR*/
@@ -218,3 +205,40 @@ a{
 .img16{
     grid-area: img16;
 }
+
+
+/* FOOTER */
+
+.footerPrincipal{
+    position:fixed;
+    bottom: 30px;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.footerSecundario{
+    width: 100%;
+    height: 40px;
+    padding: 50px;
+    font-size: 12px;
+}
+
+.datosLucas, .datosMayra{
+    margin:auto;
+    text-align:center;
+}
+
+.simbolo{
+    display: flex;
+    align-items: center;
+}
+
+.footerItems{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #bcbcbc;
+}
+
+/* RESPONSIVE */
