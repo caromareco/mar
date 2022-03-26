@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: ISOCP2;
+    font-family: ISOCP2, 'Times New Roman', Times, serif;
     box-shadow: none;
     color: black;
     font-weight: bolder;
@@ -15,12 +15,13 @@
     background: transparent;
 }
 
-.body{
-    height: 100%;
+html,body{
+    width:100%;
+    height:100%;
 }
 
 .main{
-    height: 100%;
+    
 }
 
 /* NAVEGADOR */
@@ -94,13 +95,17 @@ a{
 
 .container{
     display: flex;
-    width:100%;
-    height:100%;
-    margin: 0 auto;
+    background-color: aqua;
 }
 
 .container img{
     width:100%;
+}
+
+.imgMenu1, .imgMenu2, .imgMenu3{
+    display: flex;
+    align-items: center;
+    width: 100%;
 }
 
 /* GALERIA DE FOTOS INTERIOR Y EXTERIOR*/
