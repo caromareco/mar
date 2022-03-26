@@ -64,8 +64,8 @@ a{
 /* EFECTO IMAGENES */
 
 .material-placeholder img{
-    width: 100%!important;
-	height: 100%!important;
+    width: 100%;
+	height: 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -214,11 +214,6 @@ a{
 .img16{
     grid-area: img16;
 }
-
-.imgInterior13{
-    
-}
-
 
 /* FOOTER */
 
