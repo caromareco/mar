@@ -25,6 +25,7 @@ html,body{
 .nav{
     display: flex;
     border-bottom: 1px solid #bcbcbc;
+    height: 12vh;
 }
 
 
@@ -38,6 +39,7 @@ a{
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     justify-content: flex-start;
+    align-items: center;
 }
 
 .menuItems li{
@@ -55,7 +57,7 @@ a{
 
 .logo img{
     padding-left: 10px;
-    width: 80%;
+    width: 75%;
     list-style-type: none;
 }
 
