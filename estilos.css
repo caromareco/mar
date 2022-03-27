@@ -62,7 +62,6 @@ a{
 
 .material-placeholder img{
     width: 100%;
-	height: 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -72,6 +71,7 @@ a{
     -ms-transition: all 0.1,5s;
     -o-transition: all 0.1,5s;
     transition: all 0.1,5s;
+    opacity: .8!important;
 }
 
 .material-placeholder img:hover {
@@ -87,11 +87,11 @@ a{
     transition: opacity 0.2s!important;
 }
 
+
 /* GALERIA PRINCIPAL */
 
 .container{
     display: flex;
-    background-color: aqua;
 }
 
 .container img{
@@ -107,34 +107,7 @@ a{
 /* GALERIA DE FOTOS INTERIOR Y EXTERIOR*/
 
 .galeriaInterior img, .galeriaExterior img{
-    width: 100%;
-	height: 100%;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	filter: grayscale(100%);
-	-webkit-transition: all 0.1,5s;
-	-moz-transition: all 0.1,5s;
-	-ms-transition: all 0.1,5s;
-	-o-transition: all 0.1,5s;
-    transition: all 0.1,5s;
-}
-
-.galeriaInterior img{
     padding-top: 10%;
-}
-
-.galeriaExterior img{
-    padding-top: 10%;
-}
-
-.galeriaInterior img:hover, .galeriaExterior img:hover {
-    filter: grayscale(0%);
-    -webkit-transition: all 0.1,5s;
-    -moz-transition: all 0.1,5s;
-    -ms-transition: all 0.1,5s;
-    -o-transition: all 0.1,5s;
-    transition: all 0.1,5s;
 }
 
 /* GRID GALERIA INTERIOR */
@@ -246,6 +219,7 @@ a{
 /* GRID GALERIA EXTERIOR*/
 
 .galeriaExterior{
+    width: 100%;
     display: grid;
     grid-template-areas:'imgExterior1 imgExterior1 imgExterior1'
                         'imgExterior2 imgExterior3 imgExterior4'
@@ -258,6 +232,7 @@ a{
 
 .imgExterior1{
     grid-area: imgExterior1;
+    width: 100%;
 }
 
 .imgExterior1 img{
@@ -266,62 +241,77 @@ a{
 
 .imgExterior2{
     grid-area: imgExterior2;
+    width: 100%;
 }
 
 .imgExterior3{
     grid-area: imgExterior3;
+    width: 100%;
 }
 
 .imgExterior4{
     grid-area: imgExterior4;
+    width: 100%;
 }
 
 .imgExterior5{
     grid-area: imgExterior5;
+    width: 100%;
 }
 
 .imgExterior6{
     grid-area: imgExterior6;
+    width: 100%;
 }
 
 .imgExterior7{
     grid-area: imgExterior7;
+    width: 100%;
 }
 
 .imgExterior8{
     grid-area: imgExterior8;
+    width: 100%;
 }
 
 .imgExterior9{
     grid-area: imgExterior9;
+    width: 100%;
 }
 
 .imgExterior10{
     grid-area: imgExterior10;
+    width: 100%;
 }
 
 .imgExterior11{
     grid-area: imgExterior11;
+    width: 100%;
 }
 
 .imgExterior12{
     grid-area: imgExterior12;
+    width: 100%;
 }
 
 .imgExterior13{
     grid-area: imgExterior13;
+    width: 100%;
 }
 
 .imgExterior14{
     grid-area: imgExterior14;
+    width: 100%;
 }
 
 .imgExterior15{
     grid-area: imgExterior15;
+    width: 100%;
 }
 
 .imgExterior16{
     grid-area: imgExterior16;
+    width: 100%;
 }
 
 /* FOOTER */
