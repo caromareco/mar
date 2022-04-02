@@ -98,11 +98,8 @@ a{
 
 .container{
     display: flex;
+    align-items: center;
     width: 100%!important;
-}
-
-.container img{
-    margin-top: 25vh;
 }
 
 .imgMenu1, .imgMenu2, .imgMenu3{
@@ -344,6 +341,7 @@ a{
 	-moz-transition: 1s;
 	transition: 1s;
 }
+
 #back-top a:hover {
 	color: #000;
 }
@@ -354,7 +352,7 @@ a{
 	height: 30px;
 	display: block;
 	margin-bottom: 7px;
-	background: #ddd url(flecha.png) no-repeat center center;
+	background: #ddd url(./img/flecha.png) no-repeat center center;
 
 	/* bordes redondeados */
 	-webkit-border-radius: 15px;
@@ -366,9 +364,11 @@ a{
 	-moz-transition: 1s;
 	transition: 1s;
 }
+
 #back-top a:hover span {
 	background-color: #777;
 }
+
 
 /* RESPONSIVE */
 
