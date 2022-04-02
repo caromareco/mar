@@ -116,14 +116,16 @@ a{
 /* GRID GALERIA INTERIOR */
 
 .galeriaInterior{
+    width: 100%;
     display: grid;
     grid-template-areas:'imgInterior1 imgInterior2 imgInterior3'
                         'imgInterior4 imgInterior5 imgInterior6'
                         'imgInterior7 imgInterior8 imgInterior9'
-                        'imgInterior10 imgInterior11 imgInterior12'
                         'imgInterior13 imgInterior14 imgInterior15'
                         'imgInterior16 imgInterior17 imgInterior18'
-                        'imgInterior19 imgInterior20 imgInterior21';
+                        'imgInterior19 imgInterior20 imgInterior21'
+                        'imgInterior10 imgInterior11 imgInterior12';
+    position: relative;
 }
 
 .imgInterior1{
@@ -295,6 +297,7 @@ a{
     height: 40px;
     padding: 50px;
     font-size: 12px;
+    padding-top: 0%;
 }
 
 .datosLucas, .datosMayra{
@@ -312,57 +315,6 @@ a{
     justify-content: space-between;
     border-top: 1px solid #bcbcbc;
 }
-
-/* SCROLL TOP */
-
-#back-top {
-	position: fixed;
-	bottom: 45px;
-    margin: 10px;
-}
-
-#back-top a {
-	width: 30px;
-	display: block;
-	text-align: center;
-	font: 11px/100% Arial, Helvetica, sans-serif;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #bbb;
-
-	/* transicion */
-	-webkit-transition: 1s;
-	-moz-transition: 1s;
-	transition: 1s;
-}
-
-#back-top a:hover {
-	color: #000;
-}
-
-/* Flecha(span tag) */
-#back-top span {
-	width: 30x;
-	height: 30px;
-	display: block;
-	margin-bottom: 7px;
-	background: #ddd url(./img/flecha.png) no-repeat center center;
-
-	/* bordes redondeados */
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-
-	/* transicion */
-	-webkit-transition: 1s;
-	-moz-transition: 1s;
-	transition: 1s;
-}
-
-#back-top a:hover span {
-	background-color: #777;
-}
-
 
 /* RESPONSIVE */
 
