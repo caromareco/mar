@@ -15,11 +15,6 @@
     background: transparent;
 }
 
-html,body{
-    width:100%;
-    height:100%;
-}
-
 /* NAVEGADOR */
 
 .nav{
@@ -27,7 +22,6 @@ html,body{
     border-bottom: 1px solid #bcbcbc;
     height: 13vh;
 }
-
 
 a{
     color: black!important;
@@ -59,7 +53,7 @@ a{
     padding-top: 15px;
     padding-left: 10px;
     padding-bottom: 10px;
-    width: 75%;
+    width: 70%;
     list-style-type: none;
 }
 
@@ -93,13 +87,13 @@ a{
     transition: opacity 0.2s!important;
 }
 
-
 /* GALERIA PRINCIPAL */
 
 .container{
     display: flex;
     align-items: center;
-    width: 100%!important;
+    height: 80vh!important;
+    width: 100vw!important;
 }
 
 .imgMenu1, .imgMenu2, .imgMenu3{
