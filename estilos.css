@@ -226,6 +226,7 @@ a{
         width: 100%;
         display: grid;
         grid-template-areas:
+                            'imgExterior0 imgExterior0 imgExterior0'
                             'imgExterior2 imgExterior3 imgExterior4'
                             'imgExterior5 imgExterior6 imgExterior7'
                             'imgExterior8 imgExterior9 imgExterior10'
@@ -235,12 +236,20 @@ a{
         position: relative;
     }
 
+    .imgExterior0{
+        grid-area: imgExterior0;
+    }
+
+    .imgExterior0 img{
+        padding-top: 4%;
+    }
+
     .imgExterior1{
         grid-area: imgExterior1;
     }
 
     .imgExterior1 img{
-        padding-top: 5%;
+        padding-top: 4%;
     }
 
     .imgExterior2{
