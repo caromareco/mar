@@ -92,7 +92,7 @@ a{
 }
 
 #materialbox-overlay {
-    background-color: #292929ed!important;
+    background-color: #292929f5!important;
 }
 
 /* GALERIA PRINCIPAL */
@@ -100,7 +100,7 @@ a{
 .container{
     display: flex;
     align-items: center;
-    height: 78vh!important;
+    height: 80vh!important;
     width: 100vw!important;
 }
 
@@ -354,16 +354,12 @@ a{
         font-size: 10px;
     }
 
-    .footerPrincipal{
-        font-size: 8px;
-    }
-
     .footerItems{
-        font-size: 13px;
+        font-size: 10px;
     }
     
     .footerSecundario{
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .logo img {
@@ -373,6 +369,10 @@ a{
     .galeriaExterior, .galeriaInterior{
         display: flex;
         flex-direction: column;
+    }
+
+    .simbolo{
+        font-size: 15px;
     }
 
     }
