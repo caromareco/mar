@@ -88,7 +88,7 @@ a{
 }
 
 #materialbox-overlay {
-    background-color: #292929a1!important;
+    background-color: #292929ed!important;
 }
 
 /* GALERIA PRINCIPAL */
@@ -353,7 +353,6 @@ a{
 
     .footerPrincipal{
         font-size: 8px;
-        padding: 20px;
     }
 
     .footerItems{
