@@ -360,6 +360,7 @@ a{
 
     .footerItems{
         font-size: 10px;
+        padding-top: 5px;
     }
 
     .logo img {
