@@ -351,7 +351,9 @@ a{
     }
 
     .imgMenu1, .imgMenu2, .imgMenu3{
-        padding-top: 20px;
+        padding-top: 0px;
+        width: 90%; 
+    }
     }
 
     .menuItems li{
