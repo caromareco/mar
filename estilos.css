@@ -15,6 +15,10 @@
     background: transparent;
 }
 
+body{
+    height: 100vh;
+}
+
 /* NAVEGADOR */
 
 .nav{
@@ -96,7 +100,7 @@ a{
 .container{
     display: flex;
     align-items: center;
-    height: 80vh!important;
+    height: 78vh!important;
     width: 100vw!important;
 }
 
@@ -291,15 +295,14 @@ a{
 .footerPrincipal{
     bottom: 20px;
     width: 100%;
-    height: 6vh;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .footerSecundario{
     width: 100%;
     height: 40px;
     padding: 50px;
-    font-size: 12px;
+    font-size: 13px;
     padding-top: 5%;
 }
 
