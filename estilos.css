@@ -305,14 +305,12 @@ a{
 .footerPrincipal{
     bottom: 20px;
     width: 100%;
-    font-size: 13px;
 }
 
-.footerSecundario{padding: 45px;
+.footerSecundario{
     width: 100%;
     height: 40px;
     padding: 45px;
-    font-size: 13px;
     padding-top: 5%;
 }
 
@@ -324,15 +322,12 @@ a{
 .footerItems{
     display: flex;
     border-top: 1px solid #bcbcbc;
+    font-size: 13px;
 }
 
 /* RESPONSIVE */
 
 @media only screen and (min-width:320px) and (max-width:480px){
-
-    .menuItems li{
-        font-size: 15px;
-    }
 
     .container{
         display: flex;
@@ -354,7 +349,7 @@ a{
         padding-top: 0px;
         width: 90%; 
     }
-    }
+    
 
     .menuItems li{
         font-size: 10px;
@@ -373,3 +368,4 @@ a{
         display: flex;
         flex-direction: column;
     }
+}
