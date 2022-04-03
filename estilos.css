@@ -352,6 +352,14 @@ a{
         justify-content: space-evenly;
     }
 
+    .imgExterior0 img{
+        padding-top: 5%;
+    }
+
+    .imgExterior1 img{
+        padding-top: 5%;
+    }
+
     .imgMenu1, .imgMenu2, .imgMenu3{
         padding-top: 20px;
     }
