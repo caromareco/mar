@@ -225,12 +225,13 @@ a{
 .galeriaExterior{
     width: 100%;
     display: grid;
-    grid-template-areas:'imgExterior1 imgExterior1 imgExterior1'
+    grid-template-areas:
                         'imgExterior2 imgExterior3 imgExterior4'
                         'imgExterior5 imgExterior6 imgExterior7'
                         'imgExterior8 imgExterior9 imgExterior10'
                         'imgExterior11 imgExterior12 imgExterior13'
-                        'imgExterior14 imgExterior15 imgExterior16';
+                        'imgExterior14 imgExterior15 imgExterior16'
+                        'imgExterior1 imgExterior1 imgExterior1';
 	position: relative;
 }
 
@@ -239,7 +240,7 @@ a{
 }
 
 .imgExterior1 img{
-    padding: 0%!important;
+    padding-top: 5%;
 }
 
 .imgExterior2{
