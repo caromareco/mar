@@ -319,6 +319,10 @@ a{
     border-top: 1px solid #bcbcbc;
 }
 
+.simbolo {
+    font-size: 20px;
+}
+
 /* RESPONSIVE */
 
 @media only screen and (min-width:320px) and (max-width:480px){
@@ -332,6 +336,7 @@ a{
         flex-direction: column;
         align-items: center;
         width: 80%!important;
+        justify-content: space-evenly;
     }
 
     .imgMenu1{
@@ -349,6 +354,10 @@ a{
     .footerPrincipal{
         font-size: 8px;
         padding: 20px;
+    }
+
+    .footerItems{
+        font-size: 13px;
     }
     
     .footerSecundario{
