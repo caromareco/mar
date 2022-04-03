@@ -111,8 +111,8 @@ a{
 }
 
 .imgMenu1 img, .imgMenu2 img, .imgMenu3 img{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 /* GALERIA DE FOTOS INTERIOR Y EXTERIOR*/
@@ -121,175 +121,175 @@ a{
     padding-top: 10%;
 }
 
-/* GRID GALERIA INTERIOR */
+    /* GRID GALERIA INTERIOR */
 
-.galeriaInterior{
-    width: 100%;
-    display: grid;
-    grid-template-areas:'imgInterior1 imgInterior2 imgInterior3'
-                        'imgInterior4 imgInterior5 imgInterior6'
-                        'imgInterior7 imgInterior8 imgInterior9'
-                        'imgInterior13 imgInterior14 imgInterior15'
-                        'imgInterior16 imgInterior17 imgInterior18'
-                        'imgInterior19 imgInterior20 imgInterior21'
-                        'imgInterior10 imgInterior11 imgInterior12';
-    position: relative;
-}
+    .galeriaInterior{
+        width: 100%;
+        display: grid;
+        grid-template-areas:'imgInterior1 imgInterior2 imgInterior3'
+                            'imgInterior4 imgInterior5 imgInterior6'
+                            'imgInterior7 imgInterior8 imgInterior9'
+                            'imgInterior13 imgInterior14 imgInterior15'
+                            'imgInterior16 imgInterior17 imgInterior18'
+                            'imgInterior19 imgInterior20 imgInterior21'
+                            'imgInterior10 imgInterior11 imgInterior12';
+        position: relative;
+    }
 
-.imgInterior1{
-    grid-area: imgInterior1;
-}
+    .imgInterior1{
+        grid-area: imgInterior1;
+    }
 
-.imgInterior2{
-    grid-area: imgInterior2;
-}
+    .imgInterior2{
+        grid-area: imgInterior2;
+    }
 
-.imgInterior3{
-    grid-area: imgInterior3;
-}
+    .imgInterior3{
+        grid-area: imgInterior3;
+    }
 
-.imgInterior4{
-    grid-area: imgInterior4;
-}
+    .imgInterior4{
+        grid-area: imgInterior4;
+    }
 
-.imgInterior5{
-    grid-area: imgInterior5;
-}
+    .imgInterior5{
+        grid-area: imgInterior5;
+    }
 
-.imgInterior6{
-    grid-area: imgInterior6;
-}
+    .imgInterior6{
+        grid-area: imgInterior6;
+    }
 
-.imgInterior7{
-    grid-area: imgInterior7;
-}
+    .imgInterior7{
+        grid-area: imgInterior7;
+    }
 
-.imgInterior8{
-    grid-area: imgInterior8;
-}
+    .imgInterior8{
+        grid-area: imgInterior8;
+    }
 
-.imgInterior9{
-    grid-area: imgInterior9;
-}
+    .imgInterior9{
+        grid-area: imgInterior9;
+    }
 
-.imgInterior10{
-    grid-area: imgInterior10;
-}
+    .imgInterior10{
+        grid-area: imgInterior10;
+    }
 
-.imgInterior11{
-    grid-area: imgInterior11;
-}
+    .imgInterior11{
+        grid-area: imgInterior11;
+    }
 
-.imgInterior12{
-    grid-area: imgInterior12;
-}
+    .imgInterior12{
+        grid-area: imgInterior12;
+    }
 
-.imgInterior13{
-    grid-area: imgInterior13;
-}
+    .imgInterior13{
+        grid-area: imgInterior13;
+    }
 
-.imgInterior14{
-    grid-area: imgInterior14;
-}
+    .imgInterior14{
+        grid-area: imgInterior14;
+    }
 
-.imgInterior15{
-    grid-area: imgInterior15;
-}
+    .imgInterior15{
+        grid-area: imgInterior15;
+    }
 
-.imgInterior16{
-    grid-area: imgInterior16;
-}
+    .imgInterior16{
+        grid-area: imgInterior16;
+    }
 
-.imgInterior17{
-    grid-area: imgInterior17;
-}
+    .imgInterior17{
+        grid-area: imgInterior17;
+    }
 
-.imgInterior18{
-    grid-area: imgInterior18;
-}
+    .imgInterior18{
+        grid-area: imgInterior18;
+    }
 
-.imgInterior19{
-    grid-area: imgInterior19;
-}
+    .imgInterior19{
+        grid-area: imgInterior19;
+    }
 
-.imgInterior20{
-    grid-area: imgInterior20;
-}
+    .imgInterior20{
+        grid-area: imgInterior20;
+    }
 
-.imgInterior21{
-    grid-area: imgInterior21;
-}
+    .imgInterior21{
+        grid-area: imgInterior21;
+    }
 
-/* GRID GALERIA EXTERIOR*/
+    /* GRID GALERIA EXTERIOR*/
 
-.galeriaExterior{
-    width: 100%;
-    display: grid;
-    grid-template-areas:
-                        'imgExterior2 imgExterior3 imgExterior4'
-                        'imgExterior5 imgExterior6 imgExterior7'
-                        'imgExterior8 imgExterior9 imgExterior10'
-                        'imgExterior11 imgExterior12 imgExterior13'
-                        'imgExterior14 imgExterior15 imgExterior16'
-                        'imgExterior1 imgExterior1 imgExterior1';
-	position: relative;
-}
+    .galeriaExterior{
+        width: 100%;
+        display: grid;
+        grid-template-areas:
+                            'imgExterior2 imgExterior3 imgExterior4'
+                            'imgExterior5 imgExterior6 imgExterior7'
+                            'imgExterior8 imgExterior9 imgExterior10'
+                            'imgExterior11 imgExterior12 imgExterior13'
+                            'imgExterior14 imgExterior15 imgExterior16'
+                            'imgExterior1 imgExterior1 imgExterior1';
+        position: relative;
+    }
 
-.imgExterior1{
-    grid-area: imgExterior1;
-}
+    .imgExterior1{
+        grid-area: imgExterior1;
+    }
 
-.imgExterior1 img{
-    padding-top: 5%;
-}
+    .imgExterior1 img{
+        padding-top: 5%;
+    }
 
-.imgExterior2{
-    grid-area: imgExterior2;
-}
+    .imgExterior2{
+        grid-area: imgExterior2;
+    }
 
-.imgExterior3{
-    grid-area: imgExterior3;
-}
+    .imgExterior3{
+        grid-area: imgExterior3;
+    }
 
-.imgExterior4{
-    grid-area: imgExterior4;
-}
+    .imgExterior4{
+        grid-area: imgExterior4;
+    }
 
-.imgExterior5{
-    grid-area: imgExterior5;
-}
+    .imgExterior5{
+        grid-area: imgExterior5;
+    }
 
-.imgExterior6{
-    grid-area: imgExterior6;
-}
+    .imgExterior6{
+        grid-area: imgExterior6;
+    }
 
-.imgExterior7{
-    grid-area: imgExterior7;
-}
+    .imgExterior7{
+        grid-area: imgExterior7;
+    }
 
-.imgExterior8{
-    grid-area: imgExterior8;
-}
+    .imgExterior8{
+        grid-area: imgExterior8;
+    }
 
-.imgExterior9{
-    grid-area: imgExterior9;
-}
+    .imgExterior9{
+        grid-area: imgExterior9;
+    }
 
-.imgExterior10{
-    grid-area: imgExterior10;
-}
+    .imgExterior10{
+        grid-area: imgExterior10;
+    }
 
-.imgExterior11{
-    grid-area: imgExterior11;
-}
+    .imgExterior11{
+        grid-area: imgExterior11;
+    }
 
-.imgExterior12{
-    grid-area: imgExterior12;
-}
+    .imgExterior12{
+        grid-area: imgExterior12;
+    }
 
-.imgExterior13{
-    grid-area: imgExterior13;
-}
+    .imgExterior13{
+        grid-area: imgExterior13;
+    }
 
 /* FOOTER */
 
@@ -343,11 +343,7 @@ a{
         justify-content: space-evenly;
     }
 
-    .imgMenu1{
-        padding-top: 20px;
-    }
-    
-    .imgMenu2, .imgMenu3{
+    .imgMenu1, .imgMenu2, .imgMenu3{
         padding-top: 20px;
     }
 
