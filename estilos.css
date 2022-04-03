@@ -71,7 +71,7 @@ a{
     -ms-transition: all 0.1,5s;
     -o-transition: all 0.1,5s;
     transition: all 0.1,5s;
-    opacity: .8!important;
+    opacity: 1!important;
 }
 
 .material-placeholder img:hover{
@@ -85,6 +85,10 @@ a{
 
 .materialboxed{
     transition: opacity 0.2s!important;
+}
+
+#materialbox-overlay {
+    background-color: #292929a1!important;
 }
 
 /* GALERIA PRINCIPAL */
