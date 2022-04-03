@@ -316,24 +316,14 @@ a{
     padding-top: 5%;
 }
 
-.datosLucas, .datosMayra{
+.contacto{
     margin:auto;
     text-align:center;
 }
 
-.simbolo{
-    display: flex;
-    align-items: center;
-}
-
 .footerItems{
     display: flex;
-    justify-content: space-between;
     border-top: 1px solid #bcbcbc;
-}
-
-.simbolo {
-    font-size: 20px;
 }
 
 /* RESPONSIVE */
@@ -383,10 +373,6 @@ a{
     .galeriaExterior, .galeriaInterior{
         display: flex;
         flex-direction: column;
-    }
-
-    .simbolo{
-        font-size: 12px;
     }
 
     }
